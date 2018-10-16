@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#212121</color>
+    <color name="color_primary_dark">#000000</color>
+    <color name="color_accent">#D32F2F</color>
+    <color name="color_info_block_delimiter">#ed5353</color>
+    <color name="color_social_icon">#3e3e3e</color>
+</resources>

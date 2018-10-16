@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HW3</string>
+    <string name="hh_description">Head of Android Department</string>
+    <string name="info_description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search</string>
+    <string name="message_hint">Enter a message..</string>
+    <string name="send_message">send message</string>
+    <string name="disclaimer">© 2018 Yakovlev Andrey</string>
+    <string name="empty_message">Empty message</string>
+    <string name="app_not_found">Email app not found :(</string>
+    <string name="toolbar_title">Abstract dev.</string>
+</resources>

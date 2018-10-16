@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:ignore="UseCompoundDrawables">
+
+    <LinearLayout
+        android:id="@+id/info_content_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/KeyInfoItem"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_key_info_item">
+
+            <ImageView
+                android:layout_width="@dimen/size_key_info_ic"
+                android:layout_height="@dimen/size_key_info_ic"
+                android:layout_marginEnd="@dimen/margin_left_key_info_ic"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_hh" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hh_description"
+                android:textSize="@dimen/textsize_medium" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/KeyInfoItem"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_key_info_item">
+
+            <ImageView
+                android:layout_width="@dimen/size_key_info_ic"
+                android:layout_height="@dimen/size_key_info_ic"
+                android:layout_marginEnd="@dimen/margin_left_key_info_ic"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_android_red_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hh_description"
+                android:textSize="@dimen/textsize_medium" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/KeyInfoItem"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_key_info_item">
+
+            <ImageView
+                android:layout_width="@dimen/size_key_info_ic"
+                android:layout_height="@dimen/size_key_info_ic"
+                android:layout_marginEnd="@dimen/margin_left_key_info_ic"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_fitness_center_red_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hh_description"
+                android:textSize="@dimen/textsize_medium" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_delimiter"
+            android:background="@color/color_info_block_delimiter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/info_description"
+            android:textSize="@dimen/textsize_medium" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_delimiter"
+            android:layout_marginBottom="@dimen/all_margin"
+            android:layout_marginTop="@dimen/all_margin"
+            android:background="@color/color_accent" />
+
+        <EditText
+            android:id="@+id/messageEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/all_margin"
+            android:hint="@string/message_hint"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/send_message_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/send_message"
+            android:textAllCaps="true"
+            android:textColor="@color/color_accent"
+            android:textSize="@dimen/textsize_medium"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/all_margin"
+            android:layout_marginTop="@dimen/all_margin"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ic_github"
+                android:layout_width="@dimen/size_social_ic"
+                android:layout_height="@dimen/size_social_ic"
+                android:layout_marginEnd="@dimen/all_margin"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_github" />
+
+            <ImageView
+                android:id="@+id/ic_facebook"
+                android:layout_width="@dimen/size_social_ic"
+                android:layout_height="@dimen/size_social_ic"
+                android:layout_marginEnd="@dimen/all_margin"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_facebook" />
+
+            <ImageView
+                android:id="@+id/ic_vk"
+                android:layout_width="@dimen/size_social_ic"
+                android:layout_height="@dimen/size_social_ic"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_vk" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

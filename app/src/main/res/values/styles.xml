@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="KeyInfoItem" parent="AppTheme">
+        <item name="android:layout_marginBottom">@dimen/all_margin</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>

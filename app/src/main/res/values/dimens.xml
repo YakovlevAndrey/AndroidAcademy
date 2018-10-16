@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_key_info_item">28dp</dimen>
+    <dimen name="size_key_info_ic">28dp</dimen>
+    <dimen name="margin_left_key_info_ic">8dp</dimen>
+    <dimen name="textsize_medium">16sp</dimen>
+    <dimen name="all_margin">16dp</dimen>
+    <dimen name="size_social_ic">28dp</dimen>
+    <dimen name="height_delimiter">1dp</dimen>
+    <dimen name="height_app_bar">300dp</dimen>
+    <dimen name="margin_main_content">50dp</dimen>
+</resources>
