@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HW3</string>
+    <string name="app_name">AndroidAcademy</string>
     <string name="hh_description">Head of Android Department</string>
     <string name="info_description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search</string>
     <string name="message_hint">Enter a message..</string>
@@ -8,4 +8,16 @@
     <string name="empty_message">Empty message</string>
     <string name="app_not_found">Email app not found :(</string>
     <string name="toolbar_title">Abstract dev.</string>
+
+    <string name="image_description">News image</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="hour_ago">hr. ago</string>
+    <string name="lorem" translatable="false">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+        dolores eos qui ratione voluptatem sequi nesciunt.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+        dolores eos qui ratione voluptatem sequi nesciunt.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+        dolores eos qui ratione voluptatem sequi nesciunt.</string>
+    <string name="menu_action_about">About</string>
 </resources>

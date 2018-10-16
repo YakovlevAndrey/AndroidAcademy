@@ -9,4 +9,8 @@
     <string name="empty_message">Пустое сообщение</string>
     <string name="app_not_found">Нет почтового клиента :(</string>
     <string name="toolbar_title">Абстрактный разраб.</string>
+    <string name="yesterday">Вчера</string>
+    <string name="hour_ago">ч. назад</string>
+    <string name="menu_action_about">О нас</string>
+    <string name="image_description">Картинка</string>
 </resources>
