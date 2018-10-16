@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="color_primary">#212121</color>
-    <color name="color_primary_dark">#000000</color>
-    <color name="color_accent">#D32F2F</color>
+    <color name="color_primary">#FFFFFF</color>
+    <color name="color_primary_dark">#CECECE</color>
+    <color name="color_accent">#FF4081</color>
+    <color name="color_news_title">#202020</color>
+    <color name="color_news_content">#616161</color>
+    <color name="color_toolbar_bg">#FCFCFC</color>
+    <color name="color_status_bar">#CECECE</color>
+    <color name="color_news_date">#CECECE</color>
     <color name="color_info_block_delimiter">#ed5353</color>
     <color name="color_social_icon">#3e3e3e</color>
 </resources>

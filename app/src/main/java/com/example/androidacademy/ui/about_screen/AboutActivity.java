@@ -1,5 +1,6 @@
-package com.example.androidacademy.ui.main_screen;
+package com.example.androidacademy.ui.about_screen;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -12,7 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.androidacademy.R;
-import com.example.androidacademy.ui.base.BaseActivity;
+import com.example.androidacademy.ui.base.activity.BaseActivity;
 
 import static android.content.Intent.ACTION_SEND;
 import static android.content.Intent.ACTION_VIEW;
@@ -21,7 +22,7 @@ import static com.example.androidacademy.utils.SocialUrl.FACEBOOK;
 import static com.example.androidacademy.utils.SocialUrl.GITHUB;
 import static com.example.androidacademy.utils.SocialUrl.VK;
 
-public class MainActivity extends BaseActivity {
+public class AboutActivity extends BaseActivity {
 
     private ImageView githubIcon;
     private ImageView fbIcon;
@@ -33,7 +34,7 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_about);
         githubIcon = findViewById(R.id.ic_github);
         fbIcon = findViewById(R.id.ic_facebook);
         vkIcon = findViewById(R.id.ic_vk);
@@ -96,6 +97,10 @@ public class MainActivity extends BaseActivity {
 
     private void openSocialNetwork(final String url) {
         startActivity(new Intent(ACTION_VIEW, Uri.parse(url)));
+    }
+
+    public static void start(Activity activity){
+        activity.startActivity(new Intent(activity, AboutActivity.class));
     }
 
 }

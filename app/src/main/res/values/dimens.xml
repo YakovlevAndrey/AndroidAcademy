@@ -9,4 +9,14 @@
     <dimen name="height_delimiter">1dp</dimen>
     <dimen name="height_app_bar">300dp</dimen>
     <dimen name="margin_main_content">50dp</dimen>
+
+    <dimen name="news_category_text_size">12sp</dimen>
+    <dimen name="news_short_title_text_size">@dimen/medium_text_size</dimen>
+    <dimen name="medium_text_size">16sp</dimen>
+    <dimen name="news_content_margin_top">8dp</dimen>
+    <dimen name="news_item_margin">4dp</dimen>
+    <dimen name="medium_padding">16dp</dimen>
+    <dimen name="news_title_text_size">20sp</dimen>
+    <dimen name="news_content_text_size">@dimen/medium_text_size</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
 </resources>

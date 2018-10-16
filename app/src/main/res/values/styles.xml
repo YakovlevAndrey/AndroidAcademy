@@ -6,11 +6,41 @@
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <item name="colorAccent">@color/color_accent</item>
+        <item name="android:statusBarColor">@color/color_status_bar</item>
     </style>
 
     <style name="KeyInfoItem" parent="AppTheme">
         <item name="android:layout_marginBottom">@dimen/all_margin</item>
         <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="NewsCategoryTextViewStyle" parent="AppTheme">
+        <item name="android:textSize">@dimen/news_category_text_size</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="NewsShortTitleTextViewStyle" parent="AppTheme">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/color_news_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NewsShortContentTextViewStyle" parent="AppTheme">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textColor">@color/color_news_content</item>
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="NewsTitleTextViewStyle" parent="AppTheme">
+        <item name="android:textSize">@dimen/news_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_news_title</item>
+    </style>
+
+    <style name="NewsContentTextViewStyle" parent="AppTheme">
+        <item name="android:textSize">@dimen/news_content_text_size</item>
+        <item name="android:textColor">@color/color_news_content</item>
     </style>
 
 </resources>
